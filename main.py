@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/", methods=["GET", "HEAD"])  # Permite GET y HEAD
 def hello():
     return {"message": "¡Funciona!"}
