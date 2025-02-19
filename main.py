@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from routes import gestion_activos  # Importamos el módulo
+from routes import gestion_activos, gestion_flotas
 
 app = FastAPI()
 
-# Incluir los endpoints de gestión de activos
 app.include_router(gestion_activos.router)
+app.include_router(gestion_flotas.router)
 
 @app.get("/")
 def read_root():
