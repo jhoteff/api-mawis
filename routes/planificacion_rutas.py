@@ -57,4 +57,4 @@ def get_rutas():
     return {
         "rutas": [
             {"RUT_ID": 1, "RMO_CODIGO": "RUTA001", "VEH_MATRICULA": "1234-ABC"},
-            {"RUT_ID": 2, "RMO_CODIGO
+            {"RUT_ID": 2, "RMO_CODIGO"
