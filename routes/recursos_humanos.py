@@ -13,4 +13,7 @@ def get_operarios(fechadesde: str = None, fechahasta: str = None, listaOperarios
             {
                 "OPE_CODIGO": "OPE001",
                 "OPE_NOMBRE": "Juan",
-                "OPE_APELLI
+                "OPE_APELLI"
+            }
+        ]
+    }
