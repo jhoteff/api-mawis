@@ -78,4 +78,3 @@ def ins_ticket(ticket: Ticket):
         "TIC_REF_INTERNA": 6001,
         "detalles": ticket.dict()
     }
-`
